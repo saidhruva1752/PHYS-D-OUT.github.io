@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhruv's Tutoring</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      text-align: center;
+      padding: 3em;
+    }
+    h1 { color: #38bdf8; }
+    .card {
+      background: #1e293b;
+      margin: auto;
+      padding: 2em;
+      border-radius: 1em;
+      max-width: 600px;
+    }
+    .price { color: #4ade80; font-size: 1.5em; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Dhruv’s Tutoring Hub</h1>
+    <p><strong>Math & Physics</strong> tutoring for:</p>
+    <ul>
+      <li>High School</li>
+      <li>AP / GCSE / A-Levels</li>
+      <li>Olympiad Prep</li>
+    </ul>
+    <p class="price">Just $5/hour 💸</p>
+    <p>Reach out: dhruv.tutoring@example.com</p>
+  </div>
+</body>
+</html>
